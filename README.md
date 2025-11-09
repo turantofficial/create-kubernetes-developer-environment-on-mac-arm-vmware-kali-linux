@@ -40,6 +40,6 @@ sudo install minikube-linux-arm64 /usr/local/bin/minikube && rm minikube-linux-a
 5. Start minikube e.g.  
 ```
 minikube start --driver=docker --memory=1536mb --disk-size=6g
-sudo usermod -aG docker $USER && newgrp docker`
+sudo usermod -aG docker $USER && newgrp docker
 ```
 
