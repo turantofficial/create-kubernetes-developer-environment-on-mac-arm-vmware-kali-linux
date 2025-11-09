@@ -2,10 +2,8 @@
 
 
 1. Complete VMWare & Kali Linux  
-https://www.kali.org/docs/virtualization/install-vmware-silicon-host/  
-https://www.kali.org/get-kali/#kali-installer-images  
 
-2. Install kubectl and validate (see https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)  
+2. Install kubectl and validate  
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl"
 ```
@@ -63,3 +61,6 @@ minikube start --driver=docker --memory=1536mb --disk-size=6g
 sudo usermod -aG docker $USER && newgrp docker
 ```
 
+https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/  
+https://www.kali.org/docs/virtualization/install-vmware-silicon-host/  
+https://www.kali.org/get-kali/#kali-installer-images  
