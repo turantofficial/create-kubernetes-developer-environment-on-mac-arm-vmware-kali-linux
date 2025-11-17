@@ -37,7 +37,7 @@ sudo -i && apt update & apt install docker.io
 
 5. Start minikube e.g.  
 ```
-minikube start --driver=docker --memory=1536mb --disk-size=6g
+minikube start --driver=docker --memory=1801mb --disk-size=6g
 ```
 
 ```
